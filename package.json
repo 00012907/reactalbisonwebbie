@@ -1,7 +1,7 @@
 {
   "name": "react-website-tut",
   "version": "0.1.0",
-  "homepage": "https://00012907.github.io/react-website-tutorial-main/",
+  "predeploy" : "npm run build",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.4",
@@ -19,6 +19,8 @@
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
+    "homepage": "http://00012907.io/",
+    "deploy" : "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
