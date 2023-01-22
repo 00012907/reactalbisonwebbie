@@ -1,0 +1,69 @@
+:root {
+  --albison-blue: #2E186A;
+
+}
+
+
+
+.home {
+  width: 100%;
+  padding: 1rem;
+
+}
+
+.home .col-2 img {
+  max-width: 350px;
+  margin-top: 1.5rem;
+}
+
+.headerContainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  padding: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.headerContainer .col-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 350px;
+  font-size: 1.2rem;
+}
+
+.headerContainer .col-1 .buttons {
+  display: flex;
+  width: 350px;
+  gap: 1.5rem;
+}
+
+button {
+  background-color: var(--albison-blue);
+  color: white;
+  padding: 0.8rem;
+  letter-spacing: 1px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  border: none;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: orangered;
+  transform: scale(1.2);
+}
+
+@media(max-width:700px) {
+  .headerContainer .col-1 {
+    font-size: 1rem;
+    line-height: 1.8rem;
+  }
+
+  .headerContainer .col-1 h1 {
+    line-height: 2.5rem;
+    letter-spacing: 2px;
+  }
+}
