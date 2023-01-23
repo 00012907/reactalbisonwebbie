@@ -1,9 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../styles/Home.css";
-import pic1 from "../assets/pic5.jpg";
 import pic2 from "../assets/coding.png";
-import pic3 from "../assets/pic3.jpg";
+import "../styles/Home.css";
 import "../App.css";
 
 
